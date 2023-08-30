@@ -1,0 +1,122 @@
+@charset "UTF-8";
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: lightgray;
+}
+main {
+    background-color: aliceblue;
+    padding-top: 10px;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.247);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.411);
+    border-top: 0;
+    min-width: 350px;
+    max-width: 750px;
+}
+main a {
+    text-decoration: none;
+    color: black;
+}
+header {
+    background-image: linear-gradient(to right, brown, black);
+    height: 110px;
+    padding: 30px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.267);
+}
+
+header > h1 {
+    font-size: 5em;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+header > p {
+    font-size: 1.1em;
+    color: rgb(255, 255, 255);
+    
+}
+section {
+    border-collapse: collapse;
+    text-align: center;
+}
+h2 {
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.685);
+}
+p {
+    font-weight: bold;
+}
+div.poke {
+    margin: 10px;
+    padding-bottom: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.425);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.37);
+    border-radius: 5px;
+    width: 220px;
+    display: inline-block;
+}
+img {
+    width: 100%;
+}
+.green {
+    background-color: rgb(123, 153, 78);
+
+}
+.grass {
+    display: inline-block;
+    border-radius: 3px;
+    width: 60px;
+    background-color: rgb(123, 153, 78);
+}
+.poison {
+    display: inline-block;
+    border-radius: 3px;
+    width: 60px;
+    background-color: rgba(137, 43, 226, 0.514);
+    color: white;
+}
+.orange {
+    background-color: rgb(196, 141, 39);
+}
+.fire {
+    display: inline-block;
+    border-radius: 3px;
+    width: 60px;
+    background-color: rgb(196, 141, 39);
+    color: white;
+}
+.fly {
+    display: inline-block;
+    border-radius: 3px;
+    width: 60px;
+    background-image: linear-gradient(to top, grey, rgb(6, 226, 255));
+}
+.blue {
+    background-color: rgb(75, 160, 160);
+}
+.water {
+    display: inline-block;
+    border-radius: 3px;
+    width: 60px;
+    background-color:rgb(75, 160, 160);
+    color: white;
+}
+footer {
+    background-color: black;
+    color: white;
+    font-size: 0.8em;
+    padding: 7px;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+footer a:hover {
+    text-decoration: underline;
+}
